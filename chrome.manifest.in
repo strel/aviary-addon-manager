@@ -1,3 +1,29 @@
 # For targeted overlays use 'overlay   chrome://uri application=@ADDON_TARGET_APP_ID@'
 
-# TODO: Port base chrome.manfiest entries here
+aviary-addon-manager
+
+content aviary-addon-manager content/
+skin aviary-addon-manager classic/1.0 skin/winstripe/ os=WINNT
+skin aviary-addon-manager classic/1.0 skin/pinstripe/ os=Darwin
+skin aviary-addon-manager classic/1.0 skin/gnomestripe/ os=Linux
+
+overlay chrome://browser/content/browser.xul                   chrome://aviary-addon-manager/content/appOverlay.xul
+overlay chrome://browser/content/macBrowserOverlay.xul         chrome://aviary-addon-manager/content/appOverlay.xul
+overlay chrome://browser/content/webPanels.xul                 chrome://aviary-addon-manager/content/appOverlay.xul
+overlay about:addons                                           chrome://aviary-addon-manager/content/aboutAddonsOverlay.xul
+
+style chrome://mozapps/content/extensions/extensions.xul       chrome://aviary-addon-manager/content/layout.css
+style about:addons                                             chrome://aviary-addon-manager/content/layout.css
+overlay chrome://mozapps/content/extensions/extensions.xul     chrome://aviary-addon-manager/content/extensionsOverlay.xul
+overlay about:addons                                           chrome://aviary-addon-manager/content/extensionsOverlay.xul
+override chrome://mozapps/skin/extensions/extensions.css       chrome://aviary-addon-manager/skin/extensions.css
+
+#Stylish
+override chrome://stylish/content/manage-addons-fx4.xul        chrome://aviary-addon-manager/content/stylishOverlay.xul
+
+#Greasemonkey
+overlay  chrome://mozapps/content/extensions/extensions.xul    chrome://greasemonkey/content/addons4-overlay.xul
+override chrome://greasemonkey/content/addons4-overlay.xul     chrome://aviary-addon-manager/content/gmOverlay.xul
+
+#Locales
+locale aviary-addon-manager en-US locale/en-US/
