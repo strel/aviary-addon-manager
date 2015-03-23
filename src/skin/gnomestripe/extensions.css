@@ -337,6 +337,25 @@
   list-style-image: url("chrome://mozapps/skin/extensions/dictionaryGeneric.png");
 }
 
+/* Cosmetic Additions for extensions that extend the add-on manager */
+
+#category-greasemonkey-user-script > .category-icon,
+.addon[type=greasemonkey-user-script] .icon,
+#detail-view[type=greasemonkey-user-script] #detail-icon
+{
+  list-style-image: url(chrome://greasemonkey/skin/icon32.png);
+}
+
+#checkUpdatesAllButton[gm] {
+  visibility: collapse !important;
+}
+
+#newUserscript{
+    -moz-box-ordinal-group: 0 !important;
+}
+
+/* End Cosmetic */
+
 .name-container {
   margin-bottom: 1px;
   -moz-box-align: end;
