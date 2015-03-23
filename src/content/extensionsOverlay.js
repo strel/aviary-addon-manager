@@ -28,7 +28,7 @@ var oamObject = {
     var installFileButton = document.getElementById("installFileButton");
     var checkUpdatesAllButton = document.getElementById("checkUpdatesAllButton");
     var getMore = document.getElementById("getMore");
-    installFileButton.hidden = (Services.appinfo.ID != "$TB_ID");
+//    installFileButton.hidden = (Services.appinfo.ID != "$TB_ID");
     checkUpdatesAllButton.hidden = search;
     getMore.hidden = !themes;
 
@@ -43,15 +43,15 @@ var oamObject = {
   },
 
   browseAddons : function oamBrowseAddons(){
-    openURL(Services.urlFormatter.formatURLPref("extensions.oam.browseAddons"));
+    openURL(Services.urlFormatter.formatURLPref("extensions.aviary-addon-manager.browseAddons"));
   },
 
   getMore : function oamGetMore(){
     var getMore = document.getElementById("getMore");
     switch(getMore.getAttribute("type")){
-      case "extensions": openURL(Services.urlFormatter.formatURLPref("extensions.oam.getMoreExtensionsURL")); return;
-      case "themes": openURL(Services.urlFormatter.formatURLPref("extensions.oam.getMoreThemesURL")); return;
-      case "plugins": openURL(Services.urlFormatter.formatURLPref("extensions.oam.getMorePluginsURL")); return;
+      case "extensions": openURL(Services.urlFormatter.formatURLPref("extensions.aviary-addon-manager.getMoreExtensionsURL")); return;
+      case "themes": openURL(Services.urlFormatter.formatURLPref("extensions.aviary-addon-manager.getMoreThemesURL")); return;
+      case "plugins": openURL(Services.urlFormatter.formatURLPref("extensions.aviary-addon-manager.getMorePluginsURL")); return;
     }
   }
 }

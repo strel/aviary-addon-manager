@@ -6,17 +6,17 @@
 <!-- This overlay provides Stylish compatibility. -->
 
 <?xul-overlay href="chrome://stylish/content/manage.xul"?>
-<?xml-stylesheet href="chrome://$NAME/skin/stylish.css" type="text/css"?>
+<?xml-stylesheet href="chrome://aviary-addon-manager/skin/stylish.css" type="text/css"?>
 
 <!DOCTYPE overlay
 [
-    <!ENTITY % oamDTD SYSTEM "chrome://$NAME/locale/extensions.dtd"> %oamDTD;
+    <!ENTITY % oamDTD SYSTEM "chrome://aviary-addon-manager/locale/extensions.dtd"> %oamDTD;
     <!ENTITY % stylishDTD SYSTEM "chrome://stylish/locale/manage.dtd"> %stylishDTD;
 ]>
 
 <overlay id="stylishOverlayOAM"
          xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
-    <script type="application/javascript" src="chrome://$NAME/content/stylishOverlay.js"/>
+    <script type="application/javascript" src="chrome://aviary-addon-manager/content/stylishOverlay.js"/>
 
     <page id="addons-page">
         <stringbundleset id="stylish-stringbundleset"/>
