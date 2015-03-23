@@ -164,7 +164,7 @@
 /*** header ***/
 
 #commandBarBottom {
-  margin: 10px 10px 5px 10px;
+  margin: 10px 10px 10px 10px;
   min-width: 1px;
   -moz-appearance: dialog;
 }
@@ -411,7 +411,7 @@
 }
 
 .addon-view[selected][active="false"] {
-  background-image: url("chrome://$NAME/skin/itemDisabledFader.png");
+  background-image: url("chrome://oam/skin/itemDisabledFader.png");
 }
 
 .addon-view[notification="warning"] {

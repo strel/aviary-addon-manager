@@ -6,12 +6,12 @@
 <!DOCTYPE overlay
 [
     <!ENTITY % extensionsDTD SYSTEM "chrome://mozapps/locale/extensions/extensions.dtd"> %extensionsDTD;
-    <!ENTITY % oamDTD SYSTEM "chrome://aviary-addon-manager/locale/extensions.dtd"> %oamDTD;
+    <!ENTITY % oamDTD SYSTEM "chrome://oam/locale/extensions.dtd"> %oamDTD;
 ]>
 
 <overlay id="mainOverlayOAM"
          xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
-    <script type="application/javascript" src="chrome://aviary-addon-manager/content/extensionsOverlay.js"/>
+    <script type="application/javascript" src="extensionsOverlay.js"/>
 
     <page id="addons-page"
           screenX="10"

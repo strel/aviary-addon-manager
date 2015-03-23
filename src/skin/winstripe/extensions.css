@@ -451,13 +451,13 @@
 }
 
 .list:focus .addon-view[selected] {
-  background-image: url("chrome://$NAME/skin/itemEnabledFader.png");
+  background-image: url("chrome://oam/skin/itemEnabledFader.png");
   background-color: Highlight;
   color: HighlightText;
 }
 
 .list:focus .addon-view[selected][active="false"] {
-  background-image: url("chrome://$NAME/skin/itemDisabledFader.png");
+  background-image: url("chrome://oam/skin/itemDisabledFader.png");
 }
 
 .addon-view[notification="warning"] {

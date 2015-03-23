@@ -2,18 +2,14 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
+//const PREF_GETADDONS_BROWSERECOMMENDED      = "extensions.oam.recommended.browseURL";
+
 gCategories.maybeHideSearch = function() {
   var view = gViewController.parseViewId(this.node.selectedItem.value);
   this._search.disabled = view.type != "search";
 
   //Addition
   oamObject.updateUI();
-  if (typeof(oamObjectStylish) != "undefined"){
-    oamObjectStylish.updateStylish();
-  }
-  if (typeof(oamObjectGM) != "undefined"){
-    oamObjectGM.updateGM();
-  }
 }
 
 var oamObject = {
@@ -43,15 +39,15 @@ var oamObject = {
   },
 
   browseAddons : function oamBrowseAddons(){
-    openURL(Services.urlFormatter.formatURLPref("extensions.aviary-addon-manager.browseAddons"));
+    openURL(Services.urlFormatter.formatURLPref("extensions.oam.browseAddons"));
   },
 
   getMore : function oamGetMore(){
     var getMore = document.getElementById("getMore");
     switch(getMore.getAttribute("type")){
-      case "extensions": openURL(Services.urlFormatter.formatURLPref("extensions.aviary-addon-manager.getMoreExtensionsURL")); return;
-      case "themes": openURL(Services.urlFormatter.formatURLPref("extensions.aviary-addon-manager.getMoreThemesURL")); return;
-      case "plugins": openURL(Services.urlFormatter.formatURLPref("extensions.aviary-addon-manager.getMorePluginsURL")); return;
+      case "extensions": openURL(Services.urlFormatter.formatURLPref("extensions.oam.getMoreExtensionsURL")); return;
+      case "themes": openURL(Services.urlFormatter.formatURLPref("extensions.oam.getMoreThemesURL")); return;
+      case "plugins": openURL(Services.urlFormatter.formatURLPref("extensions.oam.getMorePluginsURL")); return;
     }
   }
 }

@@ -37,7 +37,7 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<bindings id="$NAME-bindings"
+<bindings id="oam-bindings"
           xmlns="http://www.mozilla.org/xbl"
           xmlns:xul="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
           xmlns:xbl="http://www.mozilla.org/xbl">
@@ -54,7 +54,7 @@
 
   <!-- Categories list - displays the list of categories on the left pane. -->
   <binding id="categories-list"
-           extends="chrome://$NAME/content/bindings.xml#addons-richlistbox">
+           extends="chrome://oam/content/bindings.xml#addons-richlistbox">
     <implementation>
       <!-- This needs to be overridden to allow the fancy animation while not
            allowing that item to be selected when hiding.  -->

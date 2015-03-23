@@ -431,13 +431,13 @@
 }
 
 .list:focus .addon-view[selected] {
-  background-image: url("chrome://$NAME/skin/itemEnabledFader.png");
+  background-image: url("chrome://oam/skin/itemEnabledFader.png");
   background-color: Highlight;
   color: HighlightText;
 }
 
 .list:focus .addon-view[selected][active="false"] {
-  background-image: url("chrome://$NAME/skin/itemDisabledFader.png");
+  background-image: url("chrome://oam/skin/itemDisabledFader.png");
 }
 
 .addon-view[notification="warning"] {
@@ -813,6 +813,27 @@ setting[type="radio"] > radiogroup {
 
 .addon-control[disabled="true"] {
   display: none;
+}
+
+.addon-control.enable {
+  list-style-image: url("moz-icon://stock/gtk-yes?size=button");
+}
+
+.addon-control.disable {
+  list-style-image: url("moz-icon://stock/gtk-no?size=button");
+}
+
+.addon-control.remove {
+  list-style-image: url("moz-icon://stock/gtk-remove?size=button");
+}
+
+.addon-control.preferences {
+  list-style-image: url("moz-icon://stock/gtk-preferences?size=button");
+}
+
+.addon-control.install,
+.addon-control.update {
+  list-style-image: url("moz-icon://stock/gtk-save?size=button");
 }
 
 .text-link,
