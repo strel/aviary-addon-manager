@@ -1,7 +1,5 @@
 # For targeted overlays use 'overlay   chrome://uri application=@ADDON_TARGET_APP_ID@'
 
-aviary-addons-manager
-
 content aviary-addons-manager content/
 skin aviary-addons-manager classic/1.0 skin/winstripe/ os=WINNT
 skin aviary-addons-manager classic/1.0 skin/pinstripe/ os=Darwin
