@@ -4,7 +4,7 @@ project (addon)
 
 # Preprocessor Metadata
 set(ADDON_ID "aviary-addons-manager@addons.palemoon.org")
-set(ADDON_VERSION "1.0.0")
+set(ADDON_VERSION "1.0.1")
 set(ADDON_NAME "Aviary Add-ons Manager")
 set(ADDON_XPI_NAME "aviary-addons-manager")
 set(ADDON_SHORT_DESC "Aviary Toolkit style Add-ons Manager")
