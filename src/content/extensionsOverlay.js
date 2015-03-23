@@ -2,7 +2,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-//const PREF_GETADDONS_BROWSERECOMMENDED      = "extensions.oam.recommended.browseURL";
+//const PREF_GETADDONS_BROWSERECOMMENDED      = "extensions.aviary-addons-manager.recommended.browseURL";
 
 gCategories.maybeHideSearch = function() {
   var view = gViewController.parseViewId(this.node.selectedItem.value);
@@ -24,7 +24,7 @@ var oamObject = {
     var installFileButton = document.getElementById("installFileButton");
     var checkUpdatesAllButton = document.getElementById("checkUpdatesAllButton");
     var getMore = document.getElementById("getMore");
-    installFileButton.hidden = (Services.appinfo.ID != "{3550f703-e582-4d05-9a08-453d09bdfdc6}");
+    installFileButton.hidden = (Services.appinfo.ID = null);
     checkUpdatesAllButton.hidden = search;
     getMore.hidden = !themes;
 
@@ -39,15 +39,15 @@ var oamObject = {
   },
 
   browseAddons : function oamBrowseAddons(){
-    openURL(Services.urlFormatter.formatURLPref("extensions.oam.browseAddons"));
+    openURL(Services.urlFormatter.formatURLPref("extensions.aviary-addons-manager.browseAddons"));
   },
 
   getMore : function oamGetMore(){
     var getMore = document.getElementById("getMore");
     switch(getMore.getAttribute("type")){
-      case "extensions": openURL(Services.urlFormatter.formatURLPref("extensions.oam.getMoreExtensionsURL")); return;
-      case "themes": openURL(Services.urlFormatter.formatURLPref("extensions.oam.getMoreThemesURL")); return;
-      case "plugins": openURL(Services.urlFormatter.formatURLPref("extensions.oam.getMorePluginsURL")); return;
+      case "extensions": openURL(Services.urlFormatter.formatURLPref("extensions.aviary-addons-manager.getMoreExtensionsURL")); return;
+      case "themes": openURL(Services.urlFormatter.formatURLPref("extensions.aviary-addons-manager.getMoreThemesURL")); return;
+      case "plugins": openURL(Services.urlFormatter.formatURLPref("extensions.aviary-addons-manager.getMorePluginsURL")); return;
     }
   }
 }

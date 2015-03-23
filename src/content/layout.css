@@ -1,5 +1,5 @@
 #categories {
-  -moz-binding: url("chrome://oam/content/bindings.xml#categories-list");
+  -moz-binding: url("chrome://aviary-addons-manager/content/bindings.xml#categories-list");
 }
 
 #header + hbox[flex="1"] {

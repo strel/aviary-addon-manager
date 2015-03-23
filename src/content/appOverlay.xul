@@ -3,7 +3,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!DOCTYPE overlay SYSTEM "chrome://oam/locale/extensions.dtd" >
+<!DOCTYPE overlay SYSTEM "chrome://aviary-addons-manager/locale/extensions.dtd" >
 
 <overlay id="tasksOverlayOAM"
          xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">

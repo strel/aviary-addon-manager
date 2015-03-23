@@ -1,29 +1,29 @@
 # For targeted overlays use 'overlay   chrome://uri application=@ADDON_TARGET_APP_ID@'
 
-oam
+aviary-addons-manager
 
-content oam content/
-skin oam classic/1.0 skin/winstripe/ os=WINNT
-skin oam classic/1.0 skin/pinstripe/ os=Darwin
-skin oam classic/1.0 skin/gnomestripe/ os=Linux
+content aviary-addons-manager content/
+skin aviary-addons-manager classic/1.0 skin/winstripe/ os=WINNT
+skin aviary-addons-manager classic/1.0 skin/pinstripe/ os=Darwin
+skin aviary-addons-manager classic/1.0 skin/gnomestripe/ os=Linux
 
-overlay chrome://browser/content/browser.xul                   chrome://oam/content/appOverlay.xul
-overlay chrome://browser/content/macBrowserOverlay.xul         chrome://oam/content/appOverlay.xul
-overlay chrome://browser/content/webPanels.xul                 chrome://oam/content/appOverlay.xul
-overlay about:addons                                           chrome://oam/content/aboutAddonsOverlay.xul
+overlay chrome://browser/content/browser.xul                   chrome://aviary-addons-manager/content/appOverlay.xul
+overlay chrome://browser/content/macBrowserOverlay.xul         chrome://aviary-addons-manager/content/appOverlay.xul
+overlay chrome://browser/content/webPanels.xul                 chrome://aviary-addons-manager/content/appOverlay.xul
+overlay about:addons                                           chrome://aviary-addons-manager/content/aboutAddonsOverlay.xul
 
-style chrome://mozapps/content/extensions/extensions.xul       chrome://oam/content/layout.css
-style about:addons                                             chrome://oam/content/layout.css
-overlay chrome://mozapps/content/extensions/extensions.xul     chrome://oam/content/extensionsOverlay.xul
-overlay about:addons                                           chrome://oam/content/extensionsOverlay.xul
-override chrome://mozapps/skin/extensions/extensions.css       chrome://oam/skin/extensions.css
+style chrome://mozapps/content/extensions/extensions.xul       chrome://aviary-addons-manager/content/layout.css
+style about:addons                                             chrome://aviary-addons-manager/content/layout.css
+overlay chrome://mozapps/content/extensions/extensions.xul     chrome://aviary-addons-manager/content/extensionsOverlay.xul
+overlay about:addons                                           chrome://aviary-addons-manager/content/extensionsOverlay.xul
+override chrome://mozapps/skin/extensions/extensions.css       chrome://aviary-addons-manager/skin/extensions.css
 
 #Stylish
-override chrome://stylish/content/manage-addons-fx4.xul        chrome://oam/content/stylishOverlay.xul
+override chrome://stylish/content/manage-addons-fx4.xul        chrome://aviary-addons-manager/content/stylishOverlay.xul
 
 #Greasemonkey
 overlay  chrome://mozapps/content/extensions/extensions.xul    chrome://greasemonkey/content/addons4-overlay.xul
-override chrome://greasemonkey/content/addons4-overlay.xul     chrome://oam/content/gmOverlay.xul
+override chrome://greasemonkey/content/addons4-overlay.xul     chrome://aviary-addons-manager/content/gmOverlay.xul
 
 #Locales
-locale oam en-US locale/en-US/
+locale aviary-addons-manager en-US locale/en-US/

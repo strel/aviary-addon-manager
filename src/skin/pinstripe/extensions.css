@@ -430,7 +430,7 @@
 }
 
 .addon-view[selected][active="false"] {
-  background-image: url("chrome://oam/skin/itemDisabledFader.png");
+  background-image: url("chrome://aviary-addons-manager/skin/itemDisabledFader.png");
 }
 
 .addon-view[notification="warning"] {
