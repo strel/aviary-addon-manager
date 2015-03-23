@@ -28,7 +28,7 @@ var oamObject = {
     var installFileButton = document.getElementById("installFileButton");
     var checkUpdatesAllButton = document.getElementById("checkUpdatesAllButton");
     var getMore = document.getElementById("getMore");
-//    installFileButton.hidden = (Services.appinfo.ID != "$TB_ID");
+    installFileButton.hidden = (Services.appinfo.ID != "{3550f703-e582-4d05-9a08-453d09bdfdc6}");
     checkUpdatesAllButton.hidden = search;
     getMore.hidden = !themes;
 
