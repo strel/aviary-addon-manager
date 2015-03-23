@@ -1,0 +1,3 @@
+# For targeted overlays use 'overlay   chrome://uri application=@ADDON_TARGET_APP_ID@'
+
+# TODO: Port base chrome.manfiest entries here
