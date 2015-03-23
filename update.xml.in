@@ -14,7 +14,7 @@
                 <em:id>@ADDON_TARGET_APP_ID@</em:id>
                 <em:minVersion>@ADDON_TARGET_APP_MINVER@</em:minVersion>
                 <em:maxVersion>@ADDON_TARGET_APP_MAXVER@</em:maxVersion>
-                <em:updateLink>https://addons.palemoon.org/media/addons/@ADDON_APMO_TYPE@/@ADDON_APMO_ID@/@ADDON_XPI_NAME@-@ADDON_VERSION@.xpi</em:updateLink>
+                <em:updateLink>https://addons.palemoon.org//phoebus/datastore/@ADDON_APMO_TYPE@/@ADDON_APMO_ID@/@ADDON_XPI_NAME@-@ADDON_VERSION@.xpi</em:updateLink>
                 <em:updateHash>sha256:@ADDON_HASH_SHA256@</em:updateHash>
               </RDF:Description>
             </em:targetApplication>
