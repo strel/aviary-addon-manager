@@ -17,7 +17,6 @@
     <em:type>2</em:type>
 	<!-- If bootstrapped then uncomment the following line.
 	<em:bootstrap>true</em:bootstrap> -->
-    <em:aboutURL>chrome://adblocklatitude/content/ui/about.xul</em:aboutURL>
     <em:targetApplication>
       <Description>
         <!-- @ADDON_TARGET_APP_NAME@ -->
