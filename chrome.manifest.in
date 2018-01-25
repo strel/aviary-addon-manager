@@ -25,3 +25,4 @@ override chrome://greasemonkey/content/addons4-overlay.xul     chrome://aviary-a
 
 #Locales
 locale aviary-addons-manager en-US locale/en-US/
+locale aviary-addons-manager es    locale/es/
