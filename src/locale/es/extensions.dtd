@@ -1,0 +1,23 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY em.width                         "520">
+<!ENTITY em.height                        "380">
+
+<!ENTITY browseAddons.label               "Explorar todos los complementos">
+
+<!ENTITY cmd.checkUpdatesAll.label        "Buscar actualizaciones">
+<!ENTITY cmd.checkUpdatesAll.accesskey    "B">
+<!ENTITY cmd.checkUpdatesAllAddon.tooltip "Busca actualizaciones para sus complementos">
+<!ENTITY cmd.checkUpdatesAllTheme.tooltip "Busca actualizaciones para sus temas">
+<!ENTITY cmd.checkUpdatesAllPlugin.tooltip "Busca actualizaciones para sus plugins">
+
+<!ENTITY cmd.installLocalFile.label       "Instalar…">
+<!ENTITY cmd.installLocalFile.accesskey   "n">
+<!ENTITY cmd.installFileAddon.tooltip     "Instala un complemento">
+<!ENTITY cmd.installFileTheme.tooltip     "Instala un tema">
+
+<!ENTITY getExtensions.label              "Obtener extensiones">
+<!ENTITY getThemes.label                  "Obtener temas">
+<!ENTITY getPlugins.label                 "Obtener plugins">
