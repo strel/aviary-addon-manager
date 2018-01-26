@@ -25,13 +25,5 @@
         <em:maxVersion>@ADDON_TARGET_APP_MAXVER@</em:maxVersion>
       </Description>
     </em:targetApplication>
-    <em:localized>
-      <Description>
-	<em:name>@ADDON_NAME@</em:name>
-	<em:locale>es</em:locale>
-	<em:description>Administrador de complementos estilo Aviary Toolkit</em:description>
-	<em:translator>strel</em:translator>
-      </Description>
-    </em:localized>
   </Description>
 </RDF>
