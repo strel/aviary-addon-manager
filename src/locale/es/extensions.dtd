@@ -5,19 +5,19 @@
 <!ENTITY em.width                         "520">
 <!ENTITY em.height                        "380">
 
-<!ENTITY browseAddons.label               "Explorar todos los complementos">
+<!ENTITY browseAddons.label               "Explorar Todos los Complementos">
 
-<!ENTITY cmd.checkUpdatesAll.label        "Buscar actualizaciones">
+<!ENTITY cmd.checkUpdatesAll.label        "Buscar Actualizaciones">
 <!ENTITY cmd.checkUpdatesAll.accesskey    "B">
-<!ENTITY cmd.checkUpdatesAllAddon.tooltip "Busca actualizaciones para sus complementos">
-<!ENTITY cmd.checkUpdatesAllTheme.tooltip "Busca actualizaciones para sus temas">
-<!ENTITY cmd.checkUpdatesAllPlugin.tooltip "Busca actualizaciones para sus plugins">
+<!ENTITY cmd.checkUpdatesAllAddon.tooltip "Busca Actualizaciones para sus Complementos">
+<!ENTITY cmd.checkUpdatesAllTheme.tooltip "Busca Actualizaciones para sus Temas">
+<!ENTITY cmd.checkUpdatesAllPlugin.tooltip "Busca Actualizaciones para sus Plugins">
 
 <!ENTITY cmd.installLocalFile.label       "Instalar…">
 <!ENTITY cmd.installLocalFile.accesskey   "n">
-<!ENTITY cmd.installFileAddon.tooltip     "Instala un complemento">
-<!ENTITY cmd.installFileTheme.tooltip     "Instala un tema">
+<!ENTITY cmd.installFileAddon.tooltip     "Instala un Complemento">
+<!ENTITY cmd.installFileTheme.tooltip     "Instala un Tema">
 
-<!ENTITY getExtensions.label              "Obtener extensiones">
-<!ENTITY getThemes.label                  "Obtener temas">
-<!ENTITY getPlugins.label                 "Obtener plugins">
+<!ENTITY getExtensions.label              "Obtener Extensiones">
+<!ENTITY getThemes.label                  "Obtener Temas">
+<!ENTITY getPlugins.label                 "Obtener Plugins">
